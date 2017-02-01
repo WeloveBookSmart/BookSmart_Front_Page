@@ -8,9 +8,11 @@
     <title>BookSmart Tested</title>
 
     <!-- Bootstrap -->
-    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
-	<link rel="stylesheet" type="text/css" href="testing.css" />
-	<link href='//fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+   <!-- Bootstrap -->
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />  
+	  	<link href='//fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+	      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>  
     
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -74,7 +76,7 @@
             <li><a href="../authentication/logout.php">Logout</a></li>
           </ul>
         </li>
-		<li><a href="test/upload/client.php" class="btn btn-warning" style="color:#FFFFFF">Become Our Client</a></li>
+		<li><a href="./client/client.php" class="btn btn-warning" style="color:#FFFFFF">Become Our Client</a></li>
       </ul>
     </div><!-- /.navbar-collapse -->
   </div><!-- /.container-fluid -->
@@ -128,25 +130,25 @@
 			 <!--end of slide show-->
 			<hr class="divider">
 			<br />
-			<div class="containerset">
+		<div class="containerset">
 				<div class="row marketing">
 				<!--This class is for promoting top 3 client-->
 			<h2 class="top-header">INTRODUCE OUR TOP 3 CLIENTS</h2>
 			<hr class="divider">
 		<div class="col-md-4 col-sm-4 col-xs-12">
-						<img src="images/uke.PNG" alt="img2" alt="marketing01" class="img-circle" />
+						<img src="http://placehold.it/50x50" alt="img2" alt="marketing01" class="img-circle" />
 						<h3>Usaha Karisma Enterprise</h3>
 						<p class="short-span">Catering Pioneer In Kuala Terengganu</p>
 						<a href="client_detail.php?id=$id" class="btn btn-primary">Detail</a>
 					</div>
 				<div class="col-md-4 col-sm-4 col-xs-12">
-						<img src="images/heliservices.png" alt="img2" alt="marketing01" class="img-circle">
+						<img src="http://placehold.it/50x50" alt="img2" alt="marketing01" class="img-circle">
 						<h3>Eastern Heli Services</h3>
 						<p class="short-span">Helicopter Service in Kuala Terengganu</p>
 						<a href="client_detail.php?id=$id"  class="btn btn-primary">Detail</a>
 					</div>
 				<div class="col-md-4 col-sm-4 col-xs-12">
-						<img src="images/travel-agency-weirton-wv-personal-service-travel-header.jpg" alt="img2" alt="marketing01" class="img-circle">
+						<img src="http://placehold.it/50x50" alt="img2" alt="marketing01" class="img-circle">
 						<h3>Travel Agency</h3>
 						<p>Your Personal Service To Melbourne</p>
 						<a href="client_detail.php?id=$id"  class="btn btn-primary">Detail</a>
@@ -167,7 +169,7 @@
 					<div class="caption">
 						<div class="row">
 							<div class="col-md-6 col-xs-6">
-								<img src="images/heliservices.png" alt="img2" alt="marketing01" class="img-circle img responsive margin">
+								<img src="http://placehold.it/50x50" alt="img2" alt="marketing01" class="img-circle img responsive margin">
 							</div>
 							<br />
 							<div class="col-md-6 col-xs-6 title">
@@ -178,9 +180,14 @@
 						<br />
 						<p>A wonderful and very comfortable place to stay. </p>
 						<div style="text-align:center;" class="price">$120 per room</div>
+						      <div class="rating hidden-sm col-md-6">
+                                   <i class="price-text-color fa fa-star"></i><i class="price-text-color fa fa-star">
+                                   </i><i class="price-text-color fa fa-star"></i><i class="price-text-color fa fa-star">
+                                   </i><i class="fa fa-star"></i>
+                              </div>
 						<br />
 						<div class="row">
-							<p><a style="float:left; margin-left:10px;" href="detail.php?id=$id" class="btn btn-primary" role="button">Details</a><a style="float: right; margin-right:10px;" href="#" class="btn btn-success" role="button">Book Now!</a></p>
+							<p><a style="float:left; margin-left:10px;" href="detail.php?id=$id" class="btn btn-primary" role="button">Details</a><a style="float: right; margin-right:10px;" class="btn btn-success" href="#myModal" id="openBtn" data-target="#myModal" data-toggle="modal">Book Now!</a></p>
 						</div>
 					</div>
 				</div>
@@ -188,11 +195,11 @@
 			<div class="col-sm-6 col-md-4">
 				<div class="thumbnail" >
 					<h4 class="text-center"><span class="label label-info">Catering Services</span></h4>
-					<img src="images/brochure inside.png" class="img-responsive">
+					<img src="http://placehold.it/650x450" class="img-responsive">
 					<div class="caption">
 						<div class="row">
 							<div class="col-md-6 col-xs-6">
-								<img src="images/uke.PNG" alt="img2" alt="marketing01" class="img-circle">
+								<img src="http://placehold.it/50x50" alt="img2" alt="marketing01" class="img-circle">
 							</div>
 							<div class="col-md-6 col-xs-6 title">
 								<h5>Usaha Karisma Enterprise</h5>
@@ -214,11 +221,11 @@
             <div class="col-sm-6 col-md-4">
 				<div class="thumbnail" >
 					<h4 class="text-center"><span class="label label-info">Other Services</span></h4>
-					<img src="images/heliservices.png" class="img-responsive">
+					<img src="http://placehold.it/650x450" class="img-responsive">
 					<div class="caption">
 						<div class="row">
 							<div class="col-md-6 col-xs-6">
-								<img src="images/travel-agency-weirton-wv-personal-service-travel-header.jpg" alt="img2" alt="marketing01" class="img-circle">
+								<img src="http://placehold.it/50x50" alt="img2" alt="marketing01" class="img-circle">
 							</div>
 							<div class="col-md-6 col-xs-6 title">
 								<h5>Melbourne Travel</h5>
@@ -261,7 +268,7 @@
 					<div class="caption">
 						<div class="row">
 							<div class="col-md-6 col-xs-6">
-								<img src="images/heliservices.png" alt="img2" alt="marketing01" class="img-circle img responsive margin">
+								<img src="http://placehold.it/50x50" alt="img2" alt="marketing01" class="img-circle img responsive margin">
 							</div>
 							<br />
 							<div class="col-md-6 col-xs-6 title">
@@ -282,11 +289,11 @@
 			<div class="col-sm-6 col-md-4">
 				<div class="thumbnail" >
 					<h4 class="text-center"><span class="label label-info">Catering Services</span></h4>
-					<img src="images/brochure inside.png" class="img-responsive">
+					<img src="http://placehold.it/650x450" class="img-responsive">
 					<div class="caption">
 						<div class="row">
 							<div class="col-md-6 col-xs-6">
-								<img src="images/uke.PNG" alt="img2" alt="marketing01" class="img-circle">
+								<img src="http://placehold.it/50x50" alt="img2" alt="marketing01" class="img-circle">
 							</div>
 							<div class="col-md-6 col-xs-6 title">
 								<h5>Usaha Karisma Enterprise</h5>
@@ -308,11 +315,11 @@
             <div class="col-sm-6 col-md-4">
 				<div class="thumbnail" >
 					<h4 class="text-center"><span class="label label-info">Other Services</span></h4>
-					<img src="images/heliservices.png" class="img-responsive">
+					<img src="http://placehold.it/650x450" class="img-responsive">
 					<div class="caption">
 						<div class="row">
 							<div class="col-md-6 col-xs-6">
-								<img src="images/travel-agency-weirton-wv-personal-service-travel-header.jpg" alt="img2" alt="marketing01" class="img-circle">
+								<img src="http://placehold.it/50x50" alt="img2" alt="marketing01" class="img-circle">
 							</div>
 							<div class="col-md-6 col-xs-6 title">
 								<h5>Melbourne Travel</h5>
@@ -351,17 +358,22 @@
 	  <footer>
 		<div style="text-align:center;" id="copyright">
 				@BookSmart.Inc 2016
+		  <br>
+		   <a href="explore.php">Explore</a>
+		  </br>
 		</div>
 		  <p class="pull-right"><a href="#">Back To Top</a></p>
 		  <p><a href="#">Privacy</a> . <a href="#">Term</a></p> . <p><a href="about.html">About Us</a>
                
-	  </footer>
 		</div>
+	  </footer>
 			<!--End marketing-->
 	</div>
+  </body>
+</html> 
+
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 	<script>
 		$(document).ready(function(){
 		  $(".dropdown-toggle").dropdown();
@@ -381,7 +393,3 @@
 			
 		});
 	</script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="bootstrap/js/bootstrap.min.js"></script>
-  </body>
-</html> 
